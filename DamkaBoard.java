@@ -4,7 +4,7 @@ public class DamkaBoard {
         int n  = Integer.parseInt(args[0]);
 
         // init the variable that check if i need to add space at the beginning or at the end of a line
-        boolean space_at_start = true;
+        boolean space_at_start = false;
 
         // init a loop that runs n times (every line)
         for (int i = 0; i < n; i++) {
