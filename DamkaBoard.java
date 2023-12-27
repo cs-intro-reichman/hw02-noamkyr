@@ -16,7 +16,13 @@ public class DamkaBoard {
             }
             // init a loop that runs n time that prints a line
             for (int j = 0; j < n; j++) {
-                System.out.print("* ");
+                
+		// dont unnecessary space at the end
+                if (j == n - 1){
+                    System.out.print("*");
+                } else {
+                    System.out.print("* ");
+                }
             }
             // change the boolean to the opposite value
             space_at_start = !space_at_start;
