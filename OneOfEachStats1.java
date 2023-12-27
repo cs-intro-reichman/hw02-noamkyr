@@ -64,7 +64,7 @@ public class OneOfEachStats1 {
         System.out.println("Average: " + avg + " children to get at least one of each gender.");
         System.out.println("Number of families with 2 children: " + two_children);
         System.out.println("Number of families with 3 children: " + three_children);
-        System.out.println("Number of families with 4 or more children: " + three_children);
+        System.out.println("Number of families with 4 or more children: " + four_or_more);
 
         // get the maximum value of the 3 variables using math.max function
         int most_common = Math.max(Math.max(two_children, three_children), four_or_more);
@@ -85,6 +85,8 @@ public class OneOfEachStats1 {
             }
         }
 
+
+        System.out.println();
 
     }
 }
