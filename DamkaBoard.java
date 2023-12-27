@@ -18,7 +18,7 @@ public class DamkaBoard {
             for (int j = 0; j < n; j++) {
 
                 // dont unnecessary space at the end
-                if (j == n - 1){
+                if (j == n - 1 && !space_at_start){
                     System.out.print("*");
                 } else {
                     System.out.print("* ");
