@@ -47,7 +47,7 @@ public class OneOfEach {
 
         // print the result
         System.out.println("You made it... and you now have " + count + " children.");
-
+        System.out.println();
     }
 
 }
