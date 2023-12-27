@@ -5,8 +5,8 @@ public class Divisors {
         // init the param of x
         int x = Integer.parseInt(args[0]);
 
-        // init a loop that runs x times from x to 1
-        for (int d = x; d >=1 ; d--) {
+        // init a loop that runs x times from 1 to x
+        for (int d = 1; d <= x ; d++) {
             // m has the remainder of dividing x / d
             int m = x % d;
 
