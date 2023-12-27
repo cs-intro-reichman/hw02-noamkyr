@@ -20,7 +20,7 @@ public class Perfect {
                 sum += i;
 
                 // add i to the equation
-                equation = equation + ("  + " + i);
+                equation = equation + (" + " + i);
             }
         }
 
