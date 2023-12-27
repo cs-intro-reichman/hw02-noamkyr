@@ -12,7 +12,7 @@ public class Reverse {
         int length = original.length();
 
         // get the mid index of the string
-        int mid = length / 2;
+        int mid = (length - 1) / 2;
 
         // init the mid char of the string
         char mid_char = '!';
